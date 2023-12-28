@@ -1,0 +1,16 @@
+.App{
+  display: flex;
+  padding: 30px;
+}
+.game{
+ height: 560px;
+ width: 560px;
+ /* display: grid;
+ grid-template-columns: repeat(8,1fr); */
+ display: flex;
+ flex-wrap: wrap;
+}
+.game img{
+  height: 70px;
+  width: 70px;
+}
